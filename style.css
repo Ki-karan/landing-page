@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.header * {
+    color: #f9faf8;
+}
+
+
+.hero-links a {
+    border: 3px solid red;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.inline-wrapper {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 460px
+}
+
+.hero-text {
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+
+.header-div {
+    border: 10px solid red;
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 90px;
+    align-items: center ;
+    height: fit-content;
+}
+
+.child1 {
+    border: 5px solid blue;
+    margin-left: 100px;
+    flex: 1;
+}
+.child2 {
+     border: 5px solid blue;
+    flex: 1 ; 
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+.child1 .head {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.child1 p {
+    font-size: 18px;
+}
+
+.signup-button {
+    margin-top: 7px;
+    padding: 7px;
+    width: 110px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+}
+
+.main-txt {
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 6px solid #3882F6;
+    padding: 0 200px;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.item1 {
+    border: 3px solid red;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    
+}
+.item2 {
+    border: 3px solid red;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.item3 {
+    border: 3px solid red;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.item4 {
+    border: 3px solid red;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img1  {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.img2  {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.img3  {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.img4  {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.sec {
+    background-color: #e5e7eb;
+    padding: 80px 150px 80px 150px;
+}
+.sec-txt1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic
+}
+.sec-txt2 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: end;
+    margin-top: 20px;
+}
